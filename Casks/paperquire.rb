@@ -25,7 +25,7 @@ cask "paperquire" do
   desc "Markdown to branded PDF — desktop app with CLI"
   homepage "https://paperquire.com/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "PaperQuire.app"
   binary "#{appdir}/PaperQuire.app/Contents/Resources/bin/paperquire", target: "paperquire"
