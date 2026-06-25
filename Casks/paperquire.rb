@@ -9,12 +9,12 @@
 # The CI publish script (homebrew/update-cask.sh) automates this on release.
 
 cask "paperquire" do
-  version "0.2.0"
+  version "0.3.1"
 
   on_arm do
     url "https://github.com/paperquire/releases/releases/download/v#{version}/PaperQuire-#{version}-arm64.dmg",
         verified: "github.com/paperquire/releases/"
-    sha256 "5648225a87a5a407293b45bce81f01df32f74f58353d0fbe475c5fcf46c1d216"
+    sha256 "620171f49d9774b9d819501c59d6ed842fc157310c4fb896d2f796fba19bb248"
   end
   on_intel do
     url "https://github.com/paperquire/releases/releases/download/v#{version}/PaperQuire-#{version}-x64.dmg",
